@@ -358,7 +358,7 @@ class TestMod(loader.Module):
                 utils.formatted_uptime(),
             )
             + (
-                ("\n\n" + self.strings("ping_hint"))
+                ("\n" + self.strings("ping_hint"))
                 if random.choice([0, 0, 1]) == 1
                 else ""
             ),
