@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class wexafi_ii(loader.Module):
-    """AI"""
+    """𝚊𝚒"""
 
     strings = {
         "name": "wexafi_ii",
