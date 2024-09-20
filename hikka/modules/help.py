@@ -19,8 +19,8 @@ logger = logging.getLogger(__name__)
 
 
 @loader.tds
-class Help(loader.Module):
-    """Shows help for modules and commands"""
+class help(loader.Module):
+    """𝚜𝚑𝚘𝚠𝚜 𝚑𝚎𝚕𝚙 𝚏𝚘𝚛 𝚖𝚘𝚍𝚞𝚕𝚎𝚜 𝚊𝚗𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜"""
 
     strings = {"name": "Help"}
 
@@ -28,7 +28,7 @@ class Help(loader.Module):
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
                 "core_emoji",
-                "▪️",
+                "<emoji document_id=5409009115965970006>😈</emoji>",
                 lambda: "Core module bullet",
                 validator=loader.validators.Emoji(length=1),
             ),
