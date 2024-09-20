@@ -26,7 +26,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "custom_button",
-                ["♥ 𝚠𝚎𝚡𝚊𝚏𝚒𝚋𝚒𝚘", "https://t.me/wexafibio"],
+                ["𝚠𝚎𝚡𝚊𝚏𝚒𝚋𝚒𝚘", "https://t.me/wexafibio"],
                 lambda: self.strings("_cfg_cst_btn"),
                 validator=loader.validators.Union(
                     loader.validators.Series(fixed_len=2),
@@ -97,7 +97,7 @@ class HikkaInfoMod(loader.Module):
             if self.config["custom_message"]
             else (
                 f'<b>{{}}</b>\n\n<b>{{}} {self.strings("owner")}:</b> {me}\n\n<b>{{}}'
-                f' {self.strings("version")}:</b> {_version} {build}\n<b>{{}}'
+                f' {self.strings("version")}:</b> {_version}\n<b>{{}}'
                 f' {self.strings("branch")}:'
                 f"</b> <code>{version.branch}</code>\n{upd}\n\n<b>{{}}"
                 f' {self.strings("prefix")}:</b> {prefix}\n<b>{{}}'
