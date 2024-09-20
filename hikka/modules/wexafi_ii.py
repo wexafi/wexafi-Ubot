@@ -1,19 +1,3 @@
-#   █▀▀ ▄▀█   █▀▄▀█ █▀█ █▀▄ █▀
-#   █▀░ █▀█   █░▀░█ █▄█ █▄▀ ▄█
-
-#   https://t.me/famods
-
-# 🔒    Licensed under the GNU AGPLv3
-# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
-
-# ---------------------------------------------------------------------------------
-# Name: Gemini
-# Description: Взаимодействие с AI Gemini
-# meta developer: @FAmods
-# meta banner: https://github.com/FajoX1/FAmods/blob/main/assets/banners/gemini.png?raw=true
-# requires: aiohttp openai
-# ---------------------------------------------------------------------------------
-
 import asyncio
 import logging
 
@@ -24,16 +8,16 @@ from .. import loader, utils
 logger = logging.getLogger(__name__)
 
 @loader.tds
-class Gemini(loader.Module):
-    """Взаимодействие с AI Gemini"""
+class wexafi_ii(loader.Module):
+    """AI"""
 
     strings = {
-        "name": "Gemini",
+        "name": "wexafi_ii",
 
-        "no_args": "<emoji document_id=5854929766146118183>❌</emoji> <b>Нужно </b><code>{}{} {}</code>",
-        "no_token": "<emoji document_id=5854929766146118183>❌</emoji> <b>Нету токена! Вставь его в </b><code>{}cfg gemini</code>",
+        "no_args": "<emoji document_id=5409009115965970006>😈</emoji> <b>𝚗𝚎𝚎𝚍 𝚝𝚘 </b><code>{}{} {}</code>",
+        "no_token": "<emoji document_id=5409009115965970006>😈</emoji>> <b>𝚗𝚘 𝚝𝚘𝚔𝚎𝚗! 𝚙𝚊𝚜𝚝𝚎 𝚒𝚝 𝚒𝚗 </b><code>{}cfg wexafi_ii</code>",
 
-        "asking_gemini": "<emoji document_id=5332518162195816960>🔄</emoji> <b>Спрашиваю Gemini...</b>",
+        "asking_gemini": "<emoji document_id=5368711529476669451>♾</emoji> <b>𝚠𝚊𝚒𝚝...</b>",
     }
 
     def __init__(self):
@@ -46,9 +30,9 @@ class Gemini(loader.Module):
             ),
             loader.ConfigValue(
                 "text",
-                """<emoji document_id=5879770735999717115>👤</emoji> <b>Вопрос:</b> {question}
+                """<emoji document_id=5409009115965970006>😈</emoji> <b>𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗:</b> {question}
 
-<emoji document_id=5372981976804366741>🤖</emoji> <b>Ответ:</b> {answer}""",
+<emoji document_id=5442651135234028722>🕷</emoji> <b>answer:</b> {answer}""",
                 lambda: "Текст вывода",
             ),
         )
@@ -66,8 +50,8 @@ class Gemini(loader.Module):
         asyncio.create_task(self.click_for_stats())
 
     @loader.command()
-    async def gemini(self, message):
-        """Задать вопрос к Gemini"""
+    async def ii(self, message):
+        """𝚊𝚜𝚔 𝚒𝚒"""
         q = utils.get_args_raw(message)
         if not q:
             return await utils.answer(message, self.strings["no_args"].format(self.get_prefix(), "gemini", "[вопрос]"))
