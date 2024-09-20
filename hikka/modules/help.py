@@ -28,19 +28,19 @@ class Help(loader.Module):
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
                 "core_emoji",
-                "✺",
+                "▪️",
                 lambda: "Core module bullet",
                 validator=loader.validators.Emoji(length=1),
             ),
             loader.ConfigValue(
                 "plain_emoji",
-                "✺",
+                "▪️",
                 lambda: "Plain module bullet",
                 validator=loader.validators.Emoji(length=1),
             ),
             loader.ConfigValue(
                 "empty_emoji",
-                "✺",
+                "▪️",
                 lambda: "Empty modules bullet",
                 validator=loader.validators.Emoji(length=1),
             ),
