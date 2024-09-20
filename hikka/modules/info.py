@@ -16,7 +16,7 @@ from ..inline.types import InlineQuery
 class HikkaInfoMod(loader.Module):
     """Show userbot info"""
 
-    strings = {"name": "HikkaInfo"}
+    strings = {"name": "Info"}
 
     def __init__(self):
         self.config = loader.ModuleConfig(
@@ -26,7 +26,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "custom_button",
-                ["🌘 Support chat", "https://t.me/hikka_talks"],
+                ["♥ 𝚠𝚎𝚡𝚊𝚏𝚒𝚋𝚒𝚘", "https://t.me/wexafibio"],
                 lambda: self.strings("_cfg_cst_btn"),
                 validator=loader.validators.Union(
                     loader.validators.Series(fixed_len=2),
@@ -35,7 +35,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "banner_url",
-                "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4",
+                "https://media.tenor.com/_ldHjdqFVCUAAAPo/black-aesthetic-anime-black.mp4",
                 lambda: self.strings("_cfg_banner"),
                 validator=loader.validators.Link(),
             ),
@@ -78,8 +78,8 @@ class HikkaInfoMod(loader.Module):
 
         return (
             (
-                "<b>🌘 Hikka</b>\n"
-                if "hikka" not in self.config["custom_message"].lower()
+                "<b>† wexafi-Ubot</b>\n"
+                if "wexafi" not in self.config["custom_message"].lower()
                 else ""
             )
             + self.config["custom_message"].format(
@@ -114,15 +114,15 @@ class HikkaInfoMod(loader.Module):
                         (
                             utils.get_platform_emoji()
                             if self._client.hikka_me.premium and not inline
-                            else "🌘 Hikka"
+                            else "† wexafi-Ubot"
                         ),
-                        "<emoji document_id=5373141891321699086>😎</emoji>",
-                        "<emoji document_id=5469741319330996757>💫</emoji>",
-                        "<emoji document_id=5449918202718985124>🌳</emoji>",
-                        "<emoji document_id=5472111548572900003>⌨️</emoji>",
-                        "<emoji document_id=5451646226975955576>⌛️</emoji>",
-                        "<emoji document_id=5431449001532594346>⚡️</emoji>",
-                        "<emoji document_id=5359785904535774578>💼</emoji>",
+                        "<emoji document_id=5409009115965970006>😈</emoji>",
+                        "<emoji document_id=5291897920583381342>🥵</emoji>",
+                        "<emoji document_id=5366539753493642063>✝️</emoji>",
+                        "<emoji document_id=5249106049016799961>❔</emoji>",
+                        "<emoji document_id=5251632821226717763>☠️</emoji>",
+                        "<emoji document_id=5346175694340634914>🥀</emoji>",
+                        "<emoji document_id=5409171792147275347>😵</emoji>",
                         platform,
                     ),
                 )
