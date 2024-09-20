@@ -99,7 +99,7 @@ class HikkaInfoMod(loader.Module):
                 f'<b>{{}}</b>\n\n<b>{{}} {self.strings("owner")}:</b> {me}\n\n<b>{{}}'
                 f' {self.strings("version")}:</b> {_version}\n<b>{{}}'
                 f' {self.strings("branch")}:'
-                f"</b> <code>{version.branch}</code>\n{upd}\n\n<b>{{}}"
+                f"</b> <code>{version.branch}</code>\n\n<b>{{}}"
                 f' {self.strings("prefix")}:</b> {prefix}\n<b>{{}}'
                 f' {self.strings("uptime")}:'
                 f"</b> {utils.formatted_uptime()}\n\n<b>{{}}"
