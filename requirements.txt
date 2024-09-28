@@ -15,5 +15,6 @@ psutil==5.9.4
 tgcrypto==1.2.5
 rsa==4.9
 ruamel.yaml==0.17.21
+openai
 
 # Python 3.8+
