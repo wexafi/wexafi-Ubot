@@ -15,7 +15,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/4",
+            "https://t.me/wexafi_gs/16",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -28,7 +28,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/5",
+            "https://t.me/wexafi_gs/17",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -41,7 +41,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/6",
+            "https://t.me/wexafi_gs/18",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -54,7 +54,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/7",
+            "https://t.me/wexafi_gs/19",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -67,7 +67,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/8",
+            "https://t.me/wexafi_gs/20",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -80,7 +80,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/9",
+            "https://t.me/wexafi_gs/21",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -93,7 +93,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/10",
+            "https://t.me/wexafi_gs/22",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -106,7 +106,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/11",
+            "https://t.me/wexafi_gs/23",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -119,7 +119,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/12",
+            "https://t.me/wexafi_gs/24",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -132,7 +132,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/13",
+            "https://t.me/wexafi_gs/25",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -145,7 +145,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/14",
+            "https://t.me/wexafi_gs/26",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -158,7 +158,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/15",
+            "https://t.me/wexafi_gs/27",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -171,7 +171,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/17",
+            "https://t.me/wexafi_gs/28",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
@@ -184,7 +184,7 @@ class wexafi_media(loader.Module):
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/hoshino_gs/18",
+            "https://t.me/wexafi_gs/29",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
